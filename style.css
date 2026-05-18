@@ -1,5 +1,5 @@
 /* ================= RESET ================= */
-* { margin: 0; padding: 0; box-sizing: border-box; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;} /* Reset default spacing */
+* { margin: 0; padding: 0; box-sizing: border-box; -webkit-tap-highlight-color: transparent; user-select: none; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none;} /* Reset default spacing */
 
 /* ================= ROOT VARIABLES ================= */
 :root { --red: #B70928; --bg: #050505; --soft: #101010; --text: #f5f5f5; --muted: #8d8d8d; } /* Global theme colors */
