@@ -36,7 +36,7 @@ body.loading { overflow: hidden; height: 100vh; } /* Disable scroll during loadi
 .loader-title { position: absolute; left: 50%; top: 75%; transform: translateX(-50%); font-family: 'Blackrush','Inter',sans-serif; font-size: clamp(3rem,6vw,7rem); color: #000; white-space: nowrap; overflow: hidden; } /* Loader title */
 .loader-title span { display: block; transform: translateY(120%); } /* Animated title text */
 /* ================= LOADER COUNTER ================= */
-.loader-counter { position: absolute;left: 50%;bottom: 2rem; transform: translateX(-50%);; font-size: clamp(4rem,8vw,10rem); font-family: 'Highrise', 'Blackrush','Nexa','Inter',sans-serif; font-weight: 200; color: #000; letter-spacing: 0; overflow: hidden; } /* Counter wrapper */
+.loader-counter { position: absolute;left: 50%;bottom: 2rem; transform: translateX(-50%);; font-size: clamp(4rem,8vw,10rem); font-family: 'Highrise', 'Blackrush','Nexa','Inter',sans-serif; font-weight: 200; color: #000; letter-spacing: 0; text-align: center; overflow: hidden; } /* Counter wrapper */
 .loader-counter span { display: inline-block; min-width: 80px; } /* Animated number */
 /* ================= LOADER PROGRESS ================= */
 .loader-progress { position: absolute; left: 50%; bottom: 12rem; transform: translateX(-50%); width: min(500px,60vw); height: 2px; background: transparent; overflow: hidden; } /* Progress track */
