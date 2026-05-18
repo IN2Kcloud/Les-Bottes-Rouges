@@ -92,7 +92,7 @@ body.loading { overflow: hidden; height: 100vh; } /* Disable scroll during loadi
 .hov-bg::before,.hov-bg::after{content:'';position:absolute;top:50%;left:50%;width:40px;height:15px;background-color:#B70928;box-shadow: 0 0 3px #B70928, 0 0 6px #B70928, 0 0 9px #B70928;/*border:2px solid #000;*/transform:translate(-50%,-50%) rotate(var(--angle)) scaleX(0);transform-origin:center;transition:transform 0.2s ease-in-out;z-index:2;}
 .hov-bg::before{--angle:45deg;}
 .hov-bg::after{--angle:-45deg;}
-@media screen and (max-width:1000px){#menu-trigger{width: 80px;height: 80px;font-size: 3rem;bottom: 55vh;}.menu-container {flex-direction: column; height: 40vh;}}
+@media screen and (max-width:1000px){#menu-trigger{width: 80px;height: 80px;font-size: 3rem;bottom: 50vh;}.menu-container {flex-direction: column; height: 40vh;}}
 
 /* ================= HERO SECTION ================= */
 .hero { position: relative; width: 100vw; min-height: 100vh; border-bottom: 2px solid #fff; display: flex; flex-direction: column; justify-content: center; /*padding: 10vw;*/ overflow: hidden; mix-blend-mode: screen; } /* Hero wrapper */
