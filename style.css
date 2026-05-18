@@ -36,7 +36,7 @@ body.loading { overflow: hidden; height: 100vh; } /* Disable scroll during loadi
 .loader-title { position: absolute; left: 50%; top: 75%; transform: translateX(-50%); font-family: 'Blackrush','Inter',sans-serif; font-size: clamp(3rem,6vw,7rem); color: #000; white-space: nowrap; overflow: hidden; } /* Loader title */
 .loader-title span { display: block; transform: translateY(120%); } /* Animated title text */
 /* ================= LOADER COUNTER ================= */
-.loader-counter { position: absolute;left: 50%;bottom: 2rem; transform: translateX(-50%);; font-size: clamp(4rem,8vw,10rem); font-family: 'Highrise', 'Blackrush','Nexa','Inter',sans-serif; font-weight: 200; color: #000; letter-spacing: 0; text-align: center; overflow: hidden; } /* Counter wrapper */
+.loader-counter { position: absolute;left: 50%;bottom: 2rem; transform: translateX(-50%); font-size: clamp(4rem,8vw,10rem); font-family: 'Highrise', 'Blackrush','Nexa','Inter',sans-serif; font-weight: 200; color: #000; letter-spacing: 0; text-align: center; overflow: hidden; } /* Counter wrapper */
 .loader-counter span { display: inline-block; min-width: 80px; } /* Animated number */
 /* ================= LOADER PROGRESS ================= */
 .loader-progress { position: absolute; left: 50%; bottom: 12rem; transform: translateX(-50%); width: min(500px,60vw); height: 2px; background: transparent; overflow: hidden; } /* Progress track */
@@ -53,7 +53,7 @@ body.loading { overflow: hidden; height: 100vh; } /* Disable scroll during loadi
 .screen-marqueecontainer { clip-path: inset(100% 0 0 0); } /* Hidden marquee */
 /* ================= HERO OVERLAY ================= */
 .hero::after { content: ""; position: absolute; inset: 0; background: linear-gradient(to bottom, rgba(255,255,255,.08), transparent 20%); pointer-events: none; mix-blend-mode: screen; } /* Hero light overlay */
-
+@media screen and (max-width:2000px) {.loader-title{top: 70%; height: 50px; /*background-color: #48F6D7;*/ font-size: clamp(2rem,3vw,5rem);} .loader-title span{transform: translateY(120%);line-height: 1;}}
 @media screen and (max-width:1000px) {.loader-progress{bottom: 8rem;} .loader-title{bottom: 8rem;} .loader-title span{transform: translateY(150%);}}
 
 /* ================= GRID BACKGROUND ================= */
@@ -111,7 +111,7 @@ body.loading { overflow: hidden; height: 100vh; } /* Disable scroll during loadi
 .mc { font-family: 'Highrise','Nexa','Inter',sans-serif; font-size: 20rem; text-transform: uppercase; }
 .mt { top: 20px; font-size: 20rem; font-family: 'Blackrush','Nexa','Inter',sans-serif; text-transform: initial;}
 .point { font-family: 'Highrise','Nexa','Inter',sans-serif; font-size: 10rem; }
-@media screen and (max-width:2000px) {.hero-title{top: 75%; height: 66vh;font-size: clamp(15rem,20rem,25rem);} .hero-title span{top: 45%; font-size: clamp(15rem,20rem,25rem);} .mc{font-size: 15rem;} .mt{font-size: 15rem;}}
+@media screen and (max-width:2000px) {.hero-title{top: 75%; height: 66vh;font-size: clamp(15rem,20rem,25rem);} .hero-title span{top: 45%; font-size: clamp(15rem,20rem,25rem);} .mc{font-size: 12rem;} .mt{font-size: 12rem;}}
 @media screen and (max-width:1000px) {.screen-marqueecontainer{height: 20vh}.mc{font-size: 8rem;}.mt{font-size: 8rem;}.point{font-size: 8rem;} .hero-title{font-size: clamp(6rem,12rem,18rem);top: 55%;line-height: .8;}.hero-title span{top: 40%;font-size: clamp(6rem,12rem,18rem);} .hero-img {width: 150vw;} }
 
 /* ================= SECTIONS ================= */

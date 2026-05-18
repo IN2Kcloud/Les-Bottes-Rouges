@@ -21,7 +21,7 @@ window.addEventListener("load", () => {
     rotate: -8
   });
 
-  gsap.set(".mini, .scroll", {
+  gsap.set(".mini", {
     y: 50
   });
 
@@ -150,7 +150,7 @@ window.addEventListener("load", () => {
       ease:"expo.out"
     },"-=2");
 
-    intro.to(".mini, .scroll",{
+    intro.to(".mini",{
       opacity:1,
       y:0,
       duration:1.4,
